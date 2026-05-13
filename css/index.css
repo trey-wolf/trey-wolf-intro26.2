@@ -1,0 +1,66 @@
+body{
+    background-color: rgb(29, 147, 141);
+}
+
+p{
+    color: rgb(245, 154, 105);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+ul.navigation{
+    display: flex;
+    gap: 20px;
+}
+
+ul.experience{
+    display: flex;
+    gap: 20px;
+}
+
+ul{
+    display: flex;
+    gap: 40px;
+}
+
+li{
+    display: grid;
+    row-gap: 20px;
+}
+
+div{
+    padding: 20px 20px 20px 20px;
+    background-color: rgb(29, 147, 141);
+}
+
+h1.Name{
+    color: rgb(230, 182, 171);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h2{
+    color: rgb(230, 182, 171);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+li{
+    display: block;
+    text-align: center;
+    color: rgb(245, 154, 105);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+a{
+    color: rgb(245, 154, 105);
+    font-style: oblique;
+    text-align: center;
+}
+
+
