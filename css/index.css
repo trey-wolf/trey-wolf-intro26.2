@@ -52,9 +52,12 @@ h2{
 
 li{
     display: block;
+    block-size: auto;
     text-align: center;
+    padding: 15px;
     color: rgb(245, 154, 105);
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    outline: auto;
 }
 
 a{
