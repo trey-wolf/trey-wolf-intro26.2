@@ -3,7 +3,6 @@ body{
 }
 
 p{
-    color: rgb(245, 154, 105);
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     text-align: center;
 }
@@ -26,11 +25,6 @@ ul{
 li{
     display: grid;
     row-gap: 20px;
-}
-
-div{
-    padding: 20px 20px 20px 20px;
-    background-color: rgb(29, 147, 141);
 }
 
 h1.Name{
@@ -61,9 +55,16 @@ li{
 }
 
 a{
-    color: rgb(245, 154, 105);
     font-style: oblique;
     text-align: center;
+}
+
+body{
+    color: rgb(245, 154, 105);
+}
+
+section{
+    padding: 20px
 }
 
 
