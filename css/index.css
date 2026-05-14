@@ -1,0 +1,70 @@
+body{
+    background-color: rgb(29, 147, 141);
+}
+
+p{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+ul.navigation{
+    display: flex;
+    gap: 20px;
+}
+
+ul.experience{
+    display: flex;
+    gap: 20px;
+}
+
+ul{
+    display: flex;
+    gap: 40px;
+}
+
+li{
+    display: grid;
+    row-gap: 20px;
+}
+
+h1.Name{
+    color: rgb(230, 182, 171);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h2{
+    color: rgb(230, 182, 171);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+li{
+    display: block;
+    block-size: auto;
+    text-align: center;
+    padding: 15px;
+    color: rgb(245, 154, 105);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    outline: auto;
+}
+
+a{
+    font-style: oblique;
+    text-align: center;
+}
+
+body{
+    color: rgb(245, 154, 105);
+}
+
+section{
+    padding: 20px
+}
+
+
