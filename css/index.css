@@ -20,11 +20,14 @@ ul.experience{
 ul{
     display: flex;
     gap: 40px;
+    justify-content: center;
+    padding-left: 0;
 }
 
 li{
     display: grid;
     row-gap: 20px;
+    text-align: center;
 }
 
 h1.Name{
