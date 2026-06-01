@@ -54,3 +54,33 @@ messageForm.addEventListener("submit", function(event){
     messageList.appendChild(newMessage);
     messageForm.reset();
 })
+
+fetch('https://api.github.com/users/trey-wolf/repos')
+    .then(response => {
+        if (!response.ok) {
+            throw new Error('Request failed');
+        }
+        return response.json();
+    })
+    .then(repositories => {
+        const projectSection = document.getElementById('projects')
+        const projectList = projectSection.querySelector('ul')
+
+        for (var i = 0; i < repositories.length; i++) {
+            var project = document.createElement('li');
+            var link = document.createElement('a');
+
+            link.innerText = repositories[i].name;
+            link.href = repositories[i].html_url;
+            link.target = '_blank'
+
+            project.appendChild(link);
+            projectList.appendChild(project);
+        }
+    })
+    .catch(error => {
+        console.error('An error occurred:', error);
+    });
+
+
+
