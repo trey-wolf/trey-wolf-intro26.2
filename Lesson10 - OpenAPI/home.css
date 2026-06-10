@@ -1,0 +1,95 @@
+body {
+    background-color: rgb(50, 58, 58);
+    color: rgb(167, 214, 114);
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+.maincontent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 10vh;
+}
+
+.col {
+    padding: 1%;
+}
+
+.col-lg {
+    flex-basis: 30%;
+    margin: 10px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.col-lg img {
+    display: block;
+    width: 100%;
+    height: 220px;
+    object-fit: contain;
+    background-color: rgb(40, 46, 46);
+}
+
+.col-lg .caption {
+    color: rgb(167, 214, 114);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    text-align: center;
+    padding: 8px;
+}
+
+.imgrid {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+ul {
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    padding-left: 0;
+}
+
+h1 {
+    color: rgb(167, 214, 114);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    font-size: 45px;
+    font-weight: bold;
+    font-style: italic;
+}
+
+h2 {
+    color: rgb(167, 214, 114);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: xx-large;
+    font-weight: bold;
+    text-align: center;
+}
+
+li {
+    display: block;
+    block-size: auto;
+    text-align: center;
+    padding: 15px;
+    color: rgb(167, 214, 114);
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    outline: auto;
+}
+
+a {
+    font-style: oblique;
+    text-align: center;
+    color: rgb(167, 214, 114);
+}
+
+section {
+    padding: 20px
+}
+
